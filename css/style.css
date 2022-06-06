@@ -4,9 +4,21 @@
     box-sizing: border-box;
 }
 
+.flex{
+    display: flex;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
 /* regole di header */
 header{
-    height: 50px;
+    height: 10vh;
     background-color: #000;
     text-align: right;
 }
@@ -21,3 +33,60 @@ header span{
 }
 
 /* regole main */
+main{
+    background-color: #000;
+}
+.container{
+    width: 100vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    overflow-y: scroll;
+}
+.webcam{
+    display: inline-block;
+    height: 150px;
+    margin: 5px 3px;
+}
+.mic-name{
+    bottom: 0px;
+    left: 0px;
+    background-color:rgba(0,0,0,0.5) ;
+    color: #fff;
+    padding: 5px;
+}
+
+/* regole footer */
+
+footer{
+    height: 10vh;
+    background-color: #222;
+    color: #fff;
+    justify-content: space-between;
+}
+
+.left-section, .icon{
+    align-items: center;
+}
+
+.icon div{
+    margin: 15px;
+}
+
+.icon h1{
+    text-align: center;
+}
+
+.right{
+    height: 100%;
+    width: 150px;
+    background-color: #444;
+    justify-content: center;
+    align-items: center;
+}
+
+.right a{   
+    color: red;
+    text-decoration: none;
+}
+
