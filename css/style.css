@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+/* regole di header */
+header{
+    height: 50px;
+    background-color: #000;
+    text-align: right;
+}
+
+header span{
+    display: inline-block;
+    background-color: gray;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* regole main */
