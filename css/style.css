@@ -77,6 +77,9 @@ footer{
     text-align: center;
 }
 
+#share-screen{
+    color: green;
+}
 .right{
     height: 100%;
     width: 150px;
